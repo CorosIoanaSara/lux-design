@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Coroș Ioana-Sara">
+    <meta name="keywords" content="interior design, home interior, minimalist, lux design ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Descoperă soluții inovatoare și elegante pentru fiecare spațiu.Transformă viziunea ta în realitate prin design personalizat, consultanță profesională și idei creative pentru amenajarea interioară. Inspiră-te din portofoliul meu variat și adu frumusețe și funcționalitate în căminul tău!">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <title>LUX Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            background: linear-gradient(109.6deg, rgb(255, 221, 225) 11.2%, rgb(255, 255, 255) 92.2%);
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .background {
+            background: rgb(105,75,95);
+            background: linear-gradient(90deg, rgba(105,75,95,1) 0%, rgba(223,190,209,1) 69%, rgba(206,203,220,1) 100%);
+        }
+
+        .background.nav-link {
+            color: #ffd1dc;
+            white-space: nowrap;
+        
+
+        }
+
+        .background .navbar-logo img {
+            height: 60px;
+            margin:5px 20px 5px 20px;
+        }
+
+        .list-item {
+            margin-left: 20px;
+        }
+
+        .list-item:hover{
+            color: #9d8091;
+        }
+
+
+        .pink {
+            color: #ffd1dc;
+        }
+
+        .purple {
+            color: #7f145b;
+        }
+
+
+        .custom-img {
+            max-width: 90%;
+            height: auto;
+        }
+
+        .subtitle {
+            border: 5px double#7f145b;
+            background-color: #ffd1dc;
+            text-transform: uppercase;
+
+        }
+        .paragraph{
+            text-align: justify;
+        }
+
+        .social-icon {
+            width: 50px;
+            height: 50px;
+        }
+
+        .map-frame {
+            width: 100%;
+            height: 350px;
+            border: 0;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top background  shadow">
+        <div class="container-fluid">
+            <a class="navbar-logo" href="index.html">
+                <img src="logo.png" alt="Logo Lux Design">
+            </a>
+            <h1 class="display-4 pink fw-bold ">Lux Design</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold rounded-2 list-item "
+                            href="#despre">Despre mine</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold rounded-2 list-item  "
+                            href="#servicii">Servicii</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold rounded-2 list-item "
+                            href="#portofoliu">Portofoliu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold rounded-2 list-item "
+                            href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div id="customCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="living.jpg" class="d-block w-100"
+                    alt="Living spațios și modern, mobilier minimalist în culori albe.">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="bucatarie.jpg" class="d-block w-100"
+                    alt="Bucătărie deschisă în stil rustic, cu accente de lemn.">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="baie.jpg" class="d-block w-100"
+                    alt="Baie elegantă cu o cadă independentă și finisaje florale moderne.">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="dormitor.jpg" class="d-block w-100"
+                    alt="Dormitor primitor cu pat mare și accesorii din lemn.">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="exterior.jpg" class="d-block w-100" alt="Exterior frumos al unei case cu etaj cu grădină.">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <div id="despre">
+        <div class="w-100">
+            <h2 class="mb-3 mt-5 pt-2 purple fs-2 text-center subtitle">Despre mine</h2>
+        </div>
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h3 class="fs-3 purple fw-bold mb-3">Povestea mea</h3>
+                    <p class="fs-5 paragraph">
+                        Eu sunt Isadora Grigorescu, iar designul este pentru mine mai mult decât o profesie, este o
+                        pasiune. Încă din copilărie am fost fascinată de felul în care un spațiu poate influența viața
+                        oamenilor, oferindu-le echilibru și confort.
+                        Am crescut într-un oraș unde culorile, texturile și formele se împleteau armonios, inspirându-mă
+                        să explorez <a class="link-opacity-100 purple fw-bold"
+                            href="https://ro.wikipedia.org/wiki/Design_interior" target="blank">designul interior</a>.
+                        Deși am început studiind arhitectura, am descoperit rapid că
+                        adevărata mea chemare este crearea unor interioare personalizate.
+                        Pentru mine, designul înseamnă mai mult decât estetică: este despre crearea unor spații care
+                        reflectă personalitatea, oferă funcționalitate și susțin starea de bine a celor care le trăiesc.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img src="isadora.jpg" alt="Prezentare Isadora Grigorescu-design interior."
+                        class="img-fluid custom-img rounded">
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h3 class="fs-3 purple fw-bold mb-3">Misiunea mea</h3>
+                    <p class="fs-5 paragraph">Misiunea mea, ca designer de interior, este să transform fiecare spațiu într-un loc
+                        care reflectă
+                        personalitatea și stilul de viață al celor care îl vor folosi. Cred că designul de interior nu
+                        este
+                        doar despre estetică, ci și despre funcționalitate, iar scopul meu este să creez un echilibru
+                        perfect între frumusețe și utilitate. Fiecare detaliu este important, iar printr-o atentă
+                        selecție a
+                        culorilor, materialelor și pieselor de mobilier, îmi propun să fac ca fiecare cameră să devină
+                        un
+                        loc în care oamenii se simt confortabil, inspirați și conectați cu mediul înconjurător. Astfel,
+                        misiunea mea este de a crea interioare care nu doar că arată bine, dar și îmbunătățesc calitatea
+                        vieții, aducând armonie și echilibru în fiecare colț al spațiului!</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img src="living1.jpg" alt="Living cu un mobilier de lemn rustic."
+                        class="img-fluid custom-img rounded">
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    <div id="servicii">
+        <div class="w-100">
+            <h2 class="mb-3 mt-5 pt-2 purple fs-2 text-center subtitle">Servicii</h2>
+        </div>
+        <div class="container my-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="planificare-spatiala.jpg" class="card-img-top"
+                            alt="Planificarea unui designer de interior">
+                        <div class="card-body">
+                            <h3 class="card-title purple fs-3 fw-bold text-center mb-3">Design interior complet</h3>
+                            <p class="card-text fs-5">Într-o lume în continuă schimbare, designul interior joacă un rol
+                                esențial în crearea unor spații
+                                care nu doar că reflectă personalitatea proprietarului, dar și îmbunătățesc confortul și
+                                funcționalitatea locuinței.</p>
+                            <p class="fs-5">Serviciile de design interior cuprind:</p>
+                            <ul class="fs-5">
+                                <li>Planificarea Spațiului</li>
+                                <li>Selecția Mobilierului</li>
+                                <li>Designul Iluminatului</li>
+                                <li>Textile și Accesorii</li>
+                                <li>Supervizare Proiect</li>
+
+                            </ul>
+                            <p class="fs-5">Prețul estimativ pentru design interior: <strong>3600-5800 EUR </strong></p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="badge text-bg-danger fs-6">Disponibil</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="culori.jpg" class="card-img-top" alt="Paleta de culori și texturi">
+                        <div class="card-body">
+                            <h3 class="card-title purple fs-3 fw-bold text-center mb-3 ">Materiale și Culori</h3>
+                            <p class="card-text fs-5"> Materialele influențează durabilitatea,
+                                texturile și impactul ecologic al designului, în timp ce culorile joacă un rol crucial
+                                în atmosfera generală a unui spațiu, influențând starea de bine și percepția vizuală a
+                                acestuia.</p>
+                            <p class="fs-5">Serviciile materialelor și culorilor cuprind:</p>
+                            <ul class="fs-5">
+                                <li>Alegerea Materialelor</li>
+                                <li>Texturi și Finisaje</li>
+                                <li>Culori pentru Atmosferă</li>
+                                <li>Considerarea Iluminării</li>
+                                <li>Proporții și Armonie</li>
+                            </ul>
+                            <p class="fs-5">Prețul estimativ pentru materiale și culori: <strong>900-1800
+                                    EUR</strong></p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="badge text-bg-success fs-6">Premium</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="consultanta.jpg" class="card-img-top"
+                            alt="Analiza și schițarea dorințelor clientului">
+                        <div class="card-body">
+                            <h3 class="card-title purple fs-3 fw-bold text-center mb-3">Consultanță inițială</h3>
+                            <p class="card-text fs-5 paragraph">Consultanța inițială reprezintă primul pas esențial în orice
+                                proiect de design, oferind oportunitatea de a înțelege nevoile și dorințele clientului.
+                                Este momentul în care se stabilesc fundamentele unui proiect, printr-o comunicare fermă.
+                            </p>
+                            <p class="fs-5">Serviciile de consultanță inițială cuprind:</p>
+                            <ul class="fs-5">
+                                <li>Analiza Cerințelor</li>
+                                <li>Evaluarea Stilului</li>
+                                <li>Stabilirea Bugetului</li>
+                                <li>Identificarea Provocărilor</li>
+                                <li>Crearea Proiectului</li>
+                            </ul>
+                            <p class="fs-5">Prețul estimativ pentru consultanță inițială: <strong>300-500 EUR</strong>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="badge bg-info fs-6">Ofertă limitată</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="portofoliu">
+        <div class="w-100">
+            <h2 class="mb-3 mt-5 pt-2 purple fs-2 text-center subtitle">Portofoliu</h2>
+        </div>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="living2.jpg" class="card-img-top"
+                            alt="Living alb modern accentuând o eleganță clasică.">
+                        <div class="card-body">
+                            <p class="card-text text-center fs-5 purple fw-bold">Living spațios cu decor
+                                minimalist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="bucatarie1.jpg" class="card-img-top" alt="Bucătărie albă modernă.">
+                        <div class="card-body">
+                            <p class="card-text text-center  fs-5 purple fw-bold">Bucătărie clasică și zonă de dining
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="dormitor1.jpg" class="card-img-top"
+                            alt="Dormitor primitor cu pat mare și accesorii din lemn.">
+                        <div class="card-body">
+                            <p class="card-text text-center fs-5 purple fw-bold">Dormitor în nuanțe întunecate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="hol.jpg" class="card-img-top"
+                            alt="Hol minimalist cu scări, decorațiuni discrete și un tablou pe perete.">
+                        <div class="card-body">
+                            <p class="card-text text-center fs-5 purple fw-bold">Hol primitor cu accente artistice</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="baie1.jpg" class="card-img-top" alt="Baie în tonuri reci.">
+                        <div class="card-body">
+                            <p class="card-text text-center fs-5 purple fw-bold">Baie modernă cu lumini dramatice</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="exterior2.jpg" class="card-img-top"
+                            alt="Fațada unei case moderne cu o terasă și spațiu verde.">
+                        <div class="card-body">
+                            <p class="card-text text-center fs-5 purple fw-bold">Fațada unei case moderne de lux </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="contact">
+        <div class="w-100">
+            <h2 class="mb-3 mt-5 pt-2 purple fs-2 text-center subtitle">Contact</h2>
+        </div>
+        <div class="container py-5">
+            <h3 class="fs-2 purple fw-bold mb-3">Adresa locației</h3>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <iframe class="map-frame"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2750.8883930903375!2d24.5634694158246!3d46.54270029539442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474c420ddcf4962d%3A0xd410f72bc6e63b52!2sStrada%20Bujorului%20Nr.%2010%2C%20T%C3%A2rgu%20Mure%C8%99%2C%20Romania!5e0!3m2!1sro!2s!4v1711740434521!5m2!1sro!2s"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <p class="fs-5">Mă găsești pe Strada Bujorului nr. 10, Târgu Mureș, într-o zonă centrală, ușor
+                        accesibilă, perfectă pentru a discuta despre proiectele tale de design interior. Biroul meu este
+                        situat într-un spațiu modern și primitor, unde îți voi oferi toată atenția necesară pentru a
+                        înțelege nevoile tale și pentru a-ți oferi cele mai bune soluții personalizate. Fie că vrei să
+                        îți transformi un spațiu prin renovare sau pur și simplu să îți reîmprospătezi interiorul, te
+                        invit să mă vizitezi. Aici vei găsi un ambient plăcut și inspirațional, ideal pentru a explora
+                        posibilitățile designului interior. Dacă ai întrebări sau ai nevoie de mai multe detalii, nu
+                        ezita să mă contactezi!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="background text-white py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 mb-3">
+                    <p class="fs-4 pink fw-bold">Informații de contact</p>
+                    <ul class="list-unstyled fs-5">
+                        <li>Email: luxdesign@gmail.com</li>
+                        <li>Telefon: 0735717382</li>
+                        <li>Strada: Bujorului nr. 10, Târgu Mureș</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <p class="fs-4 pink fw-bold">Urmăriți-mă pe:</p>
+                    <div class="d-flex justify-content-start gap-3">
+                        <div class="text-center">
+                            <p>Facebook</p>
+                            <a href="https://www.facebook.com/designdeinterior.ro/" target="_blank">
+                                <img src="facebook.png" alt=" Icon Facebook" class="img-fluid social-icon">
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <p>Instagram</p>
+                            <a href="https://www.instagram.com/interiordesignmag/" target="_blank">
+                                <img src="instagram.png" alt="Icon Instagram" class="img-fluid social-icon">
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <p>Twitter</p>
+                            <a href="https://x.com/interiordesign" target="_blank">
+                                <img src="twitter.png" alt="Icon Twitter" class="img-fluid social-icon">
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <p>Pinterest</p>
+                            <a href="https://ro.pinterest.com/simonaspataru/design-interior/" target="_blank">
+                                <img src="pinterest.png" alt="Icon Pinterest" class="img-fluid social-icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p class="fs-5 pink fw-bold">&copy; 2024 Isadora Grigorescu. Toate drepturile rezervate.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
